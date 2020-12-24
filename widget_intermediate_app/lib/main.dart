@@ -6,6 +6,7 @@ import 'package:widget_intermediate_app/widgets/04_PopupMenuButton.dart';
 import 'package:widget_intermediate_app/widgets/05_ExpansionPanel.dart';
 import 'package:widget_intermediate_app/widgets/06_TabBarExample.dart';
 import 'package:widget_intermediate_app/widgets/07_StepperExample.dart';
+import 'package:widget_intermediate_app/widgets/08_GridViewExample.dart';
 
 void main() {
   runApp(new MaterialApp(
@@ -15,6 +16,7 @@ void main() {
     //home: PopupMenuExample()
     //home: ExpansionPanelExample(),
     //home: TabBarExample(),
-    home: StepperExample(),
+    //home: StepperExample(),
+    home: GridViewExampe(),
   ));
 }

@@ -22,7 +22,7 @@ class _StepperExampleState extends State<StepperExample> {
       Step(
         title: Text('Step 2'),
         content: Text('Do Something'),
-        isActive: true,
+        isActive: false,
       ),
       Step(
         title: Text('Step 3'),
@@ -63,7 +63,7 @@ class _StepperExampleState extends State<StepperExample> {
         child: Center(
             child: Stepper(
           steps: _steps,
-          type: StepperType.horizontal, // vertical, horizontal
+          type: StepperType.vertical, // vertical, horizontal
           currentStep: _current,
           onStepCancel: _stepCancel,
           onStepContinue: _stepContinue,
